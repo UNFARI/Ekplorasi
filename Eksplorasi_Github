@@ -1,0 +1,53 @@
+Nama: Muhamad Rayhan Fadillah
+NIM: 234260009
+
+1. Repositori
+Tempat menyimpan seluruh file proyek, termasuk riwayat revisi (commit).
+Bisa bersifat **publik** (terbuka) atau **private** (tertutup).
+Contoh: `github.com/username/nama-proyek`
+
+2. Clone
+Menyalin repository dari GitHub ke komputer lokal menggunakan:
+
+  ```bash
+  git clone https://github.com/username/repo.git
+  ```
+3. Commit
+Menyimpan snapshot perubahan file di repository.
+Digunakan setelah melakukan perubahan file.
+
+  ```bash
+  git commit -m "Pesan perubahan"
+  ```
+
+4. Push & Pull
+Push: Mengirim perubahan dari lokal ke GitHub.
+Pull: Mengambil update dari GitHub ke lokal.
+
+5. Branch
+Cabang dari repo utama (`main`/`master`) untuk mengembangkan fitur tanpa mengganggu kode utama.
+
+  ```bash
+  git checkout -b fitur-baru
+  ```
+
+🔀 6. Merge
+Menggabungkan branch fitur ke branch utama (misalnya `main`).
+Umumnya dilakukan melalui **Pull Request** di GitHub.
+
+7. Pull Request
+Permintaan untuk menggabungkan perubahan dari satu branch ke branch lain.
+Bisa direview, didiskusikan, dan di-approve sebelum digabung.
+
+8. Issues
+Fitur untuk melaporkan bug, mengusulkan fitur baru, atau diskusi terkait proyek.
+Bisa dikaitkan dengan PR.
+
+9. Actions (CI/CD)
+Menjalankan proses otomatis seperti testing, build, atau deploy.
+Contoh: otomatis uji coba setelah push.
+
+10. Access Control
+Mengatur siapa yang bisa baca, edit, atau mengelola repository.
+
+
