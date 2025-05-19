@@ -30,8 +30,7 @@ Cabang dari repo utama (`main`/`master`) untuk mengembangkan fitur tanpa menggan
   ```bash
   git checkout -b fitur-baru
   ```
-
-🔀 6. Merge
+6. Merge
 Menggabungkan branch fitur ke branch utama (misalnya `main`).
 Umumnya dilakukan melalui **Pull Request** di GitHub.
 
